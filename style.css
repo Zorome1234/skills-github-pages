@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+  
+}
+.container {
+    background-color: beige;
+    width: 100%;
+    height: 100vh;
+}
+body {
+    overflow: hidden;
+}
+.entete{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+
+}
+nav.entete img{
+    width: 110px ;
+    height: 110px;
+    border-radius: 50%;
+}
+.nom {
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 3px;
+
+}
+.nom span {
+    text-transform: capitalize;
+    color: violet;
+}
+.nom b {
+    color: violet;
+    font-size: 50px;
+}
+.menu {
+    display: flex;
+}
+.menu li{
+    margin: 0 15px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+}
+.reseau a {
+    font-size: 40px;
+    margin: 25px 10px;
+}
+.menu li,a:hover,.reseau a:hover {
+    color: red;
+}
+.corps {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding:0  8%;
+    overflow: hidden;
+}
+.cgauche, .cdroite{
+    width: 50%;
+}
+.cgauche{
+    z-index: 5;
+   
+}
+.textB{
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;   
+}
+h1{
+    display: block;
+    font-size: 3em;
+    font-weight: 900;
+    color: black;
+}
+p{
+    display: block;
+    width: 90%;
+    font-size: 1.2em;
+    text-align: left;
+    color: black;
+}
+.btn{
+    width: 30%;
+    position: relative;
+    left: 50px;
+}
+button {
+ border:none;
+outline:none;
+cursor: pointer;
+font-size: 25px;
+font-weight: 400;
+background-color: violet;
+color: aliceblue;
+padding: 8px 14px;
+margin: 40px 5px;
+letter-spacing: 2px;
+text-transform: capitalize;
+box-shadow: 0 15px 10px rgba(0,0, 0, 0.4);
+}
+.groupimg {
+    position: relative;
+    height: 100%;
+    width: calc(105%);
+    right: -25px;
+    top: 5px;
+    animation: animateImg 5s linear infinite;
+}
+@keyframes animateImg{
+    50%{
+        right: 10px;
+        top: 15px;
+    }
+}
+.corp{
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+}
+ .textA {
+    color: violet;
+    font-size: 35px;
+    letter-spacing: 5px;
+    display: block;
+    position: relative;
+    text-transform:initial;
+
+}
+span {
+    text-transform: capitalize;
+    color: violet;
+} 
+.cgauch, .cdroit {
+    width: 50%;
+}
+.cor {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    font-size: 20px;
+}
+.cgauch, .cdroit {
+    width: 50%;
+}
+.cgauch {
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    font-size: 23px;
+    text-transform: calc();
+}
+.cgauch b {
+color: violet;
+}
+.cgauch span {
+    color: violet;
+}
+ .groupim {
+    position: relative;
+    height:100vh;
+    width: 50%;
+    right: -40px;
+    top: 80px;
+}
+.co {
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    align-items: center;
+    font-size: 23px;;
+}
+.cgauc, .cdroi {
+    width: 50%;
+}
+
+.contain {
+    background-color: white;
+}
+.formulaire{
+    margin: 0 auto;
+    padding: 20px;
+   text-align: center;
+   width: 30%;
+    background-color:bisque;
+    height: 60%;
+    padding-top: 100px;
+   
+    
+}
+.envoyer{
+    text-align: left;
+    width: 100%;
+    font-size: 40px;
+    
+}
+.card{
+    text-align: center;
+    color: red;
+    width: 100%;
+    background-color:beige;
+    height: 100vh;
+    }

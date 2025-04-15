@@ -1,0 +1,58 @@
+/*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none ;
+    list-style-type: none;
+}
+.container {
+    background-color: bisque;
+    width: 100%;
+    height: 100vh;
+}
+.cgauche, .cdroite {
+    width: 50%;
+}
+.corps {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content:calc();
+    align-items: calc();
+    padding: 0 5%;
+    overflow: hidden;
+} 
+.textB {
+    display:flex;
+    position: relative;
+    font-size: 100px;
+     letter-spacing: 8px;
+     color: violet;
+}
+.k, span {
+    text-transform: capitalize;
+    color: violet;
+    
+
+}
+.cgauche, a  {
+    color: black;
+    font-size: 1.2em;
+}
+p {
+    display: block;
+    width: 100%;
+    font-size: 2.5em;
+
+
+}
+.groupimg {
+    position: relative;
+    height: 100%;
+    width: calc(105%);
+    right: -25px;
+    top:5px;
+    animation:reverse
+}
+.cgauche span p{
+    text-align: left;
+}*/
